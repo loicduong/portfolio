@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+
 const runtimeConfig = useRuntimeConfig()
 const appConfig = useAppConfig()
 const { locale } = useI18n()
@@ -51,6 +53,7 @@ useSeoMeta({
 <template>
   <div>
     <NuxtPage />
+    <SpeedInsights/>
   </div>
 </template>
 

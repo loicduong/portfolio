@@ -1,5 +1,5 @@
 {
-  "name": "canvas-template",
+  "name": "loicduong-portfolio",
   "author": "loicduong",
   "version": "0.0.0",
   "license": "MIT",
@@ -34,5 +34,8 @@
     "resend": "^4.0.1",
     "sitemap": "^8.0.0",
     "vue-sonner": "^1.3.0"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
   }
 }
