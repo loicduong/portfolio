@@ -66,7 +66,9 @@ defineShortcuts({
             :locale="locale"
             find="one"
           >
-            <ContentRenderer :value="data" />
+            <ContentRenderer :value="data">
+              <ContentRendererMarkdown :value="data" />
+            </ContentRenderer>
           </ContentQuery>
         </NuxtLayout>
         <Toaster close-button />
