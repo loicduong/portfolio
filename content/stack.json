@@ -189,6 +189,11 @@
       "name": "Prettier",
       "link": "https://prettier.io/",
       "logo": "SvgoPrettierColor"
+    },
+    {
+      "name": "Slack",
+      "link": "https://slack.com/",
+      "logo": "SvgoSlackColor"
     }
   ]
 }
