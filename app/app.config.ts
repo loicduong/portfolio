@@ -8,11 +8,13 @@ export default defineAppConfig({
   phone: '(+84) 842 575 139',
   openGraphImage: 'https://canvas.hrcd.fr/social-preview.jpg',
   socials: {
-    github: 'https://github.com/loicduong',
-    // twitter: 'https://twitter.com/HugoRCD__',
     linkedin: 'https://www.linkedin.com/in/loicduong',
-    // instagram: 'https://www.instagram.com/hugo.rcd_',
-    // spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
+    github: 'https://github.com/loicduong',
+    telegram: 'https://t.me/loicduong',
+    skype: 'skype:dploc96',
+    gmail: 'mailto:dploc96@gmail.com',
+    phone: 'tel:+84842575139',
+    upwork: 'https://www.upwork.com/freelancers/~01b8c755abb9d27024',
   },
   ui: {
     primary: 'emerald',
