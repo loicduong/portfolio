@@ -194,6 +194,41 @@
       "name": "Slack",
       "link": "https://slack.com/",
       "logo": "SvgoSlackColor"
+    },
+    {
+      "name": "JSON",
+      "link": "https://www.json.org/",
+      "logo": "SvgoJsonColor"
+    },
+    {
+      "name": "YAML",
+      "link": "https://yaml.org/",
+      "logo": "SvgoYamlColor"
+    },
+    {
+      "name": "Lodash",
+      "link": "https://lodash.com/",
+      "logo": "SvgoLodashColor"
+    },
+    {
+      "name": "Markdown",
+      "link": "https://daringfireball.net/projects/markdown/",
+      "logo": "SvgoMarkdownColor"
+    },
+    {
+      "name": "Node.js",
+      "link": "https://nodejs.org/",
+      "logo": "SvgoNodejsColor"
+    },
+    {
+      "name": "Moment.js",
+      "link": "https://momentjs.com/",
+      "logo": "SvgoMomentjsColor"
+    },
+    {
+      "name": "Pinia",
+      "link": "https://pinia.vuejs.org/",
+      "logo": "SvgoPiniaColor"
     }
   ]
 }
