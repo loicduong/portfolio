@@ -4,7 +4,7 @@ export default defineAppConfig({
   profilePicture: '/assets/loic-duong.webp',
   footerName: 'Loic Duong',
   email: 'dploc96@gmail.com',
-  twitterUsername: '@HugoRCD__',
+  // twitterUsername: '@HugoRCD__',
   phone: '(+84) 842 575 139',
   openGraphImage: 'https://canvas.hrcd.fr/social-preview.jpg',
   socials: {

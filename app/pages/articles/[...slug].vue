@@ -44,16 +44,14 @@ defineOgImage({
 <template>
   <div class="selection:bg-white/60 selection:text-zinc-800">
     <div>
-      <NuxtLink
-        to="/writing"
-        class="mx-auto my-8 flex cursor-pointer items-center gap-2 px-4 text-muted transition-colors duration-200 hover:text-main sm:max-w-2xl md:max-w-3xl lg:max-w-4xl"
-      >
+      <NuxtLink to="/writing"
+        class="mx-auto my-8 flex cursor-pointer items-center gap-2 px-4 text-muted transition-colors duration-200 hover:text-main sm:max-w-2xl md:max-w-3xl lg:max-w-4xl">
         <span class="i-lucide-arrow-left size-4" />
         <span class="text-sm font-extralight">
           {{ $t("navigation.writing") }}
         </span>
       </NuxtLink>
-      <SettingsLanguageToggle class="fixed bottom-4 right-4 sm:bottom-4" />
+      <!-- <SettingsLanguageToggle class="fixed bottom-4 right-4 sm:bottom-4" /> -->
       <article class="writing prose mx-auto px-4 sm:max-w-2xl md:max-w-3xl lg:max-w-4xl">
         <h1>
           {{ page?.title }}
@@ -67,24 +65,14 @@ defineOgImage({
           <p class="hidden sm:block">
             |
           </p>
-          <UTooltip
-            :text="$t('writing.copy_link')"
-            :shortcuts="['⌘', 'K']"
-          >
-            <p
-              class="flex cursor-pointer select-none items-center gap-1 transition-colors duration-200 hover:text-main"
-              @click="copyArticleLink"
-            >
+          <UTooltip :text="$t('writing.copy_link')" :shortcuts="['⌘', 'K']">
+            <p class="flex cursor-pointer select-none items-center gap-1 transition-colors duration-200 hover:text-main"
+              @click="copyArticleLink">
               {{ $t("writing.share") }}
             </p>
           </UTooltip>
         </div>
-        <ContentQuery
-          v-slot="{ data }"
-          :path="$route.path"
-          :locale="locale"
-          find="one"
-        >
+        <ContentQuery v-slot="{ data }" :path="$route.path" :locale="locale" find="one">
           <ContentRenderer :value="data" />
         </ContentQuery>
       </article>

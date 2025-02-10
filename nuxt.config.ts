@@ -28,13 +28,13 @@ export default defineNuxtConfig({
     head: {
       viewport: 'width=device-width, initial-scale=1',
       charset: 'utf-8',
-      script: [
-        {
-          'src': 'https://analytics.hrcd.fr/js/script.js',
-          'defer': true,
-          'data-domain': 'canvas.hrcd.fr',
-        },
-      ],
+      // script: [
+      //   {
+      //     'src': 'https://analytics.hrcd.fr/js/script.js',
+      //     'defer': true,
+      //     'data-domain': 'canvas.hrcd.fr',
+      //   },
+      // ],
     },
     pageTransition: {
       name: 'fade',
@@ -105,11 +105,12 @@ export default defineNuxtConfig({
 
   i18n: {
     strategy: 'no_prefix',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-    },
+    // detectBrowserLanguage: {
+    //   useCookie: true,
+    //   cookieKey: 'i18n_redirected',
+    //   redirectOn: 'root',
+    // },
+    detectBrowserLanguage: false,
     // baseUrl: '/',
     locales: ['en', 'vi'],
     defaultLocale: 'en',

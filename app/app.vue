@@ -53,10 +53,8 @@ useSeoMeta({
 <template>
   <div>
     <NuxtPage />
-    <SpeedInsights/>
+    <SpeedInsights />
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
