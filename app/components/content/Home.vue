@@ -54,10 +54,11 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
         />
 
         <!-- cta -->
-        <!-- <HomeCTA
+        <HomeCTA
           style="--stagger: 4"
           data-animate
-        /> -->
+          class="mt-2"
+        />
 
         <div
           style="--stagger: 5"
