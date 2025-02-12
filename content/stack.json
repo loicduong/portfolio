@@ -21,7 +21,7 @@
       "logo": "SvgoNaiveuiColor"
     },
     {
-      "name": "Element Plus",
+      "name": "Element +",
       "link": "https://element-plus.org/",
       "logo": "SvgoElementColor"
     },
@@ -111,7 +111,7 @@
       "logo": "SvgoGithubColor"
     },
     {
-      "name": "Visual Studio Code",
+      "name": "VSCode",
       "link": "https://code.visualstudio.com/",
       "logo": "SvgoVscodeColor"
     },
@@ -229,6 +229,11 @@
       "name": "Pinia",
       "link": "https://pinia.vuejs.org/",
       "logo": "SvgoPiniaColor"
+    },
+    {
+      "name": "D3.js",
+      "link": "https://d3js.org/",
+      "logo": "SvgoD3Color"
     }
   ]
 }
