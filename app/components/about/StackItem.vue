@@ -11,25 +11,27 @@ defineProps({
 </script>
 
 <template>
-  <SpotlightCard
-    white
-    class="p-6"
-  >
-    <NuxtLink
-      :to="item.link"
-      target="_blank"
-      :aria-label="item.name + ' link'"
-      class="flex gap-2"
+  <UTooltip :text="item.name">
+    <SpotlightCard
+      white
+      class="p-6"
     >
-      <component
-        :is="item.logo"
-        class="size-8 text-main"
-        :class="item.logo.includes('Color') ? '' : 'text-main'"
-        :font-controlled="false"
-        :alt="item.name + ' logo'"
-        :filled="item.logo.includes('Color')"
-        :aria-label="item.name + ' logo'"
-      />
-    </NuxtLink>
-  </SpotlightCard>
+      <NuxtLink
+        :to="item.link"
+        target="_blank"
+        :aria-label="item.name + ' link'"
+        class="flex gap-2"
+      >
+        <component
+          :is="item.logo"
+          class="size-8 text-main"
+          :class="item.logo.includes('Color') ? '' : 'text-main'"
+          :font-controlled="false"
+          :alt="item.name + ' logo'"
+          :filled="item.logo.includes('Color')"
+          :aria-label="item.name + ' logo'"
+        />
+      </NuxtLink>
+    </SpotlightCard>
+  </UTooltip>
 </template>
