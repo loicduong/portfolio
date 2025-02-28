@@ -1,5 +1,5 @@
 ---
-name: Wine Business Website & Dashboard
+name: Wine Business
 release: 2024
 image: /projects/private.webp
 link:
