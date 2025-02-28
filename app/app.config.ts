@@ -11,7 +11,6 @@ export default defineAppConfig({
     linkedin: 'https://www.linkedin.com/in/loicduong',
     github: 'https://github.com/loicduong',
     telegram: 'https://t.me/loicduong',
-    skype: 'skype:dploc96',
     gmail: 'mailto:dploc96@gmail.com',
     phone: 'tel:+84842575139',
     upwork: 'https://www.upwork.com/freelancers/~01b8c755abb9d27024',
