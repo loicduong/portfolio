@@ -7,7 +7,7 @@ const socialMediaRegexMap = [
   { regex: /spotify\.com/, name: 'Spotify', logo: 'SvgoSpotify' },
   { regex: /t\.me/, name: 'Telegram', logo: 'SvgoTelegram' },
   { regex: /upwork\.com/, name: 'Upwork', logo: 'SvgoUpwork' },
-  { regex: /tel/, name: 'Phone', logo: 'SvgoPhone' },
+  { regex: /wa\.me/, name: 'WhatsApp', logo: 'SvgoWhatsapp' },
   { regex: /mailto/, name: 'Gmail', logo: 'SvgoGmail' },
 ]
 

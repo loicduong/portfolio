@@ -12,7 +12,7 @@ export default defineAppConfig({
     github: 'https://github.com/loicduong',
     telegram: 'https://t.me/loicduong',
     gmail: 'mailto:dploc96@gmail.com',
-    phone: 'tel:+84842575139',
+    whatapps: 'https://wa.me/+84842575139',
     upwork: 'https://www.upwork.com/freelancers/~01b8c755abb9d27024',
   },
   ui: {
