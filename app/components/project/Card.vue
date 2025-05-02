@@ -25,6 +25,7 @@ const img = useImage()
     </div>
     <div class="flex h-56 justify-center overflow-hidden rounded-lg">
       <NuxtImg
+        v-if="project.image"
         :placeholder="img(`${project.image}`)"
         width="1536"
         :alt="project.name + ' project image'"
