@@ -1,9 +1,11 @@
 <script setup lang="ts">
 const { locale } = useI18n()
 
-const { data: projects } = await useAsyncData('projects', () => queryContent('/projects').locale(locale.value).sort({ release: -1 }).find(), {
-  watch: [locale],
-})
+const { data: projects } = await useAsyncData(
+  'projects',
+  () => queryContent('/projects').locale(locale.value).sort({end: -1, start: -1}).find(),
+  { watch: [locale] },
+)
 </script>
 
 <template>
