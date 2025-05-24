@@ -1,11 +1,7 @@
 <script setup lang="ts">
 const socialMediaRegexMap = [
   { regex: /github\.com/, name: 'GitHub', logo: 'SvgoGithub' },
-  { regex: /twitter\.com/, name: 'X / Twitter', logo: 'SvgoX' },
   { regex: /linkedin\.com/, name: 'LinkedIn', logo: 'SvgoLinkedin' },
-  { regex: /instagram\.com/, name: 'Instagram', logo: 'SvgoInstagram' },
-  { regex: /spotify\.com/, name: 'Spotify', logo: 'SvgoSpotify' },
-  { regex: /t\.me/, name: 'Telegram', logo: 'SvgoTelegram' },
   { regex: /upwork\.com/, name: 'Upwork', logo: 'SvgoUpwork' },
   { regex: /wa\.me/, name: 'WhatsApp', logo: 'SvgoWhatsapp' },
   { regex: /mailto/, name: 'Gmail', logo: 'SvgoGmail' },
